@@ -97,12 +97,12 @@ def graph_data(X,Y_, Y, special=[]):
   # draw the correctly classified datapoints
   good = (Y_==Y)
   plt.scatter(X[good,0],X[good,1], c=colors[good], 
-              s=sizes[good], marker='o')
+              s=sizes[good], marker='o', linewidths=0.5)
 
   # draw the incorrectly classified datapoints
   bad = (Y_!=Y)
   plt.scatter(X[bad,0],X[bad,1], c=colors[bad], 
-              s=sizes[bad], marker='s')
+              s=sizes[bad], marker='s', linewidths=0.5)
 
 def class_to_onehot(Y):
   Yoh=np.zeros((len(Y),max(Y)+1))
