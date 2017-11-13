@@ -1,2 +1,6 @@
 **/.ipynb_checkpoints/
 **/__pycache__/
+**/.idea/
+**/build/
+**/im2col_cython.cpython-36m-darwin.so
+**/im2col_cython.c
