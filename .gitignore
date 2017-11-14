@@ -4,3 +4,6 @@
 **/build/
 **/im2col_cython.cpython-36m-darwin.so
 **/im2col_cython.c
+**/datasets/
+lab2/im2col_cython.cp36-win_amd64.pyd
+lab2/im2col_cython.cp36-win32.pyd
