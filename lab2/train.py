@@ -9,7 +9,7 @@ import nn
 import layers
 
 DATA_DIR = '/../datasets/MNIST/'
-SAVE_DIR = './out/'
+SAVE_DIR = './out/zad1/'
 
 config = {}
 config['max_epochs'] = 8
