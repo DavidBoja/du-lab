@@ -8,7 +8,7 @@ import nn
 
 import layers
 
-DATA_DIR = '/../datasets/MNIST/'
+DATA_DIR = '../datasets/MNIST/'
 SAVE_DIR = './out/zad1/'
 
 config = {}
